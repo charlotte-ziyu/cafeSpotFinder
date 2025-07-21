@@ -2,40 +2,36 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Seat and Sip Toronto</title>
-  <link rel="stylesheet" href="../css/styles.css" />
-  <link href="https://fonts.googleapis.com/css2?family=DynaPuff:wght@500&family=Lexend:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <!-- Header -->
-  <header>
-    <h1>☕ Seat and Sip Toronto</h1>
-    <nav>
-      <a href="/register-user/index.html">📝 Register</a>
-      <a href="/login/index.html">🔐 Login</a>
-      <a href="/search/index.html">🔍 Search</a>
-      <a href="/my-reservations/index.html">📅 My Reservations</a>
-      <a href="/my-favorites/index.html">❤️ My Favorites</a>
-      <a href="/register-owner/index.html">🏪 Owner Register</a>
-    </nav>
-  </header>
-
-  <!-- Hero Section -->
-  <section class="hero">
-    <h2>Savor the Perfect Brew!</h2>
-    <p>Find the coziest cafes around Toronto to sip, study, and share moments. Whether you're a student, remote worker, or cafe lover—we've got your seat!</p>
-    <div class="cta-buttons">
-      <button onclick="window.location.href='/search-result/index.html'">Start Searching</button>
-      <button onclick="window.location.href='/register-user/index.html'">Create Account</button>
-    </div>
-  </section>
-
-  <!-- Footer -->
-  <footer>
-    <p>❤️ Made with love from Toronto</p>
-  </footer>
-
-  <script src="js/main.js"></script>
+  <div class="background">
+    <header>
+      <h1>☕ Seat and Sip Toronto</h1>
+      <nav>
+        <button>Register</button>
+        <button>Login</button>
+        <button>Search</button>
+        <button>My Reservations</button>
+        <button>My Favorites</button>
+        <button>Owner Register</button>
+      </nav>
+    </header>
+    <main>
+      <h2>Savor the Perfect Brew!</h2>
+      <p>Find the coziest cafes around Toronto to sip, study, and share moments.<br>
+         Whether you're a student, remote worker, or café lover—we've got your seat.</p>
+      <div class="actions">
+        <button class="cta">Start Searching</button>
+        <button class="cta">Create Account</button>
+      </div>
+      <div class="animation">
+        <img src="cup-animation.svg" alt="Coffee Animation"/>
+      </div>
+    </main>
+    <footer>❤️ Made with love from Toronto</footer>
+  </div>
 </body>
 </html>
